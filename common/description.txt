@@ -1,0 +1,13 @@
+What lives in this folder?
+
+- components
+  - Each folder is a type of reusable components
+  - Files in components are just parts of a widget (non-reusable, or just non-categorized)
+  - __test__ contains tests for the components
+- utils
+  - Custom hooks and any other helper functions
+  - If you wish to test these, create a __test__ folder within here
+- widgets
+  - widgets are larger components that are comprised of many smaller components
+  - If you wish to test widgets, please consider unit testing the smaller components
+    - Create a __test__ folder if you do wish to test widgets

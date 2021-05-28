@@ -1,0 +1,4 @@
+What lives in this folder?
+
+- Anything related to authentication
+  - This refers to components, logic, backend functions, everything

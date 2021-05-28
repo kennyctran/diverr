@@ -1,0 +1,5 @@
+What lives in this folder?
+
+- Any files related to Styles
+- Any Material-UI Theme Provider files
+- Any reusable Material-UI logic that are not components to be rendered

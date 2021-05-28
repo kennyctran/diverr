@@ -1,0 +1,50 @@
+{
+  "name": "src",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test-coverage": "jest --colors --coverage",
+    "format": "prettier --write .",
+    "p-format": "prettier --write . && git add -A ."
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/styles": "^4.11.4",
+    "axios": "^0.21.1",
+    "formik": "^2.2.8",
+    "moment": "^2.29.1",
+    "next": "10.2.2",
+    "next-auth": "^3.23.3",
+    "pg": "^8.6.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "serverless-mysql": "^1.5.4",
+    "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
+    "babel-jest": "^26.6.3",
+    "enzyme": "^3.11.0",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.23.2",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jest-enzyme": "^7.1.2",
+    "jest-puppeteer": "^5.0.3",
+    "prettier": "^2.3.0",
+    "puppeteer": "^9.1.1"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb": "^18.2.1"
+  }
+}

@@ -1,0 +1,6 @@
+What lives in this folder?
+
+- api.js is either the master or indexing file for interactions with the third-party API
+- constants.js is for values that do not change (ex. base url, etc)
+  - Please note that secrets should live in a .env.local file
+- Any files related to interactions with third-party servers or API

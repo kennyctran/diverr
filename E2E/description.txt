@@ -1,0 +1,3 @@
+What lives in this folder?
+
+- End to End tests
